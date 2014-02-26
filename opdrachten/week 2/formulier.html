@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<title>Pagina</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="formulier.css">
+</head>
+<body>
+	<form method="post" action="formulier.html">
+		<fieldset>
+		    <legend>Contactgegevens</legend>
+			<label for="naam">Naam</label><input type="text" id="naam"><br>
+			<label for="email">E-mail</label><input type="email" id="email"><br>
+			<label for="straatnaam">Straatnaam</label><input type="text" id="straatnaam"><br>
+			<label for="nummer">Nummer</label><input type="number" id="nummer"><br>
+			<label for="postcode">Postcode</label><input pattern="[0-9]{4}\s*[a-zA-Z]{2}" type="text" id="postcode" placeholder="1234 AB"><br>
+			<label for="land">Land</label><input type="text" id="land"><br>
+			<label for="telefoonnummer">Telefoonnummer</label><input type="tel" id="telefoonnummer"><br>
+		</fieldset>
+		<fieldset>
+		    <legend>Voorkeuren</legend>
+			<label for="lievelingskleur">Lievelingskleur</label><input type="color" id="lievelingskleur"><br>
+			<label for="maand">Leukste maand</label><input type="month" id="maand"><br>
+			<label for="beoordeling">Hoe goed is dit ongeveer?</label><input type="number" min="1" max="10" id="beoordeling"><br>
+		</fieldset>
+		<input type="submit">
+	</form>
+</body>
+</html>
