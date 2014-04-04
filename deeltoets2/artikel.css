@@ -1,0 +1,33 @@
+body{
+	background: rgba(0,0,0,0.1);
+	font-family: 'Helvetica Neue', Helvetica, Sans-Serif;
+}
+article{
+	width: 1000px;
+	margin: auto;
+	background: rgba(255,255,255,.5);
+	padding: 20px;
+}
+article > h1{
+	color: rgba(0,0,0,0.2);
+	font-size: 3em;
+	margin: 0 0 20px 0;
+	text-align: center;
+	text-shadow: 0 1px 0px white;
+}
+article > section {
+	background: rgb(255,255,255);
+	padding: 20px;
+}
+article > section + section {
+	margin-top: 20px;
+}
+article > section > h1 {
+	font-size: 2em;
+	margin: 0;
+}
+article > section img{
+	margin: 20px;
+	float: left;
+	width: 25%;
+}
